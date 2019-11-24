@@ -1,0 +1,49 @@
+加拿大1 = custom, ss1.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+俄罗斯2= custom, ss2.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+美国3= custom, ss3.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+俄罗斯4= custom, ss4.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+俄罗斯5 = custom, ss5.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+俄罗斯6 = custom, ss6.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+美国7 = custom, ss7.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+美国8 = custom, ss8.ssrsub.xyz, 8080, xchacha20-ietf-poly1305, t.me/SSRSUB, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+加拿大9 = custom, ss1.dlolb.ml, 8080, xchacha20-ietf-poly1305, 12321ff, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true, obfs=http, obfs-host=data.video.qiyi.com
+美国B1 = custom, 34.220.74.172, 443, chacha20, bbrc173, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国B2 = custom, 34.218.41.53, 443, chacha20, bbrc173, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+新加坡B3 = custom, 54.169.133.81, 443, chacha20, bbrc173, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+新加坡B4 = custom, 52.221.230.248, 443, chacha20, bbrc173, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+日本B5 = custom, 18.179.49.72, 443, chacha20, bbrc173, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+日本B6 = custom, 3.112.61.202, 443, chacha20, bbrc173, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+新加坡B7 = custom, 45.88.42.58, 3572, rc4-md5, cht1997...///, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国B8 = custom, 173.82.104.199, 3572, rc4-md5, cht1997...///, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+日本B9 = custom, 118.27.4.161, 15414, chacha20, W2019S, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+台湾B10 = custom, 211.21.214.234, 21971, aes-256-cfb, bTuK5IJr9hzl, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+上海B11 = custom, 122.51.13.129, 80, chacha20-ietf, mmkk, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国B12 = custom, 38.100.229.84, 39, aes-256-cfb, bannedbook.org, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国B13 = custom, 67.21.94.192, 49, aes-256-cfb, dongtaiwang.com, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+俄罗斯B14 = custom, 45.84.1.61, 34567, aes-256-cfb, 75659032, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+荷兰B15 = custom, 152.89.211.209, 9090, aes-256-cfb, yiran, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+以色列B16 = custom, 146.185.219.23, 1379, rc4-md5, dKzlD2, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C1 = custom, 198.255.103.62, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+新加坡C2 = custom, 172.104.178.58, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C3 = custom, 198.255.103.62, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C4 = custom, 50.7.12.147, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C5 = custom, 199.223.119.92, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+德国C6 = custom, 172.104.149.56, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+新加坡C7 = custom, 139.162.15.45, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+香港C8 = custom, 209.58.188.157, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C9 = custom, 69.36.182.52, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C10 = custom, 192.240.99.182, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C11 = custom, 50.7.12.147, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+德国C12 = custom, 172.104.152.149, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+英国C13 = custom, 212.84.169.72, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+日本C14 = custom, 139.162.67.40, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+日本C15 = custom, 172.105.192.135, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C16 = custom, 162.220.51.58, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C17 = custom, 204.45.182.34, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C18 = custom, 185.186.245.44, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+英国C19 = custom, 176.58.97.137, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+德国C20 = custom, 172.105.71.4, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+德国C21 = custom, 172.105.71.82, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+德国C22 = custom, 172.104.131.24, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C23 = custom, 199.223.119.83, 8097, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
+美国C24 = custom, 23.254.204.203, 8099, aes-256-cfb, eIW0Dnk69454e6nSwuspv9DmS201tQ0D, https://github.com/lhie1/Rules/blob/master/SSEncrypt.module?raw=true
