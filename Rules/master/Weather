@@ -1,5 +1,5 @@
-const lang = "https://api.darksky.net/forecast/89f8e85348ac732bc9c28ce0314bf40e/30.31171901835077,120.3663720343061"
-var lat_lon = "auto_ip"
+const lang = "zh"
+var lat_lon = "30.31184371010009,120.3663631754533"
 var api = "auto_api"
 //第一行引号内填入申请到的dark sky api
 //有问题请通过Telegram反馈 https://t.me/Leped_Bot
