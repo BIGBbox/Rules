@@ -1,7 +1,6 @@
-var api = "https://api.darksky.net/forecast/9776a7283777b893573b3fcb395ed55a/37.8267,-122.4233";
-const lang = "zh"
-var lat_lon = "30.31105385197192,120.3652328096896"
-
+const lang = "https://api.darksky.net/forecast/89f8e85348ac732bc9c28ce0314bf40e/37.8267,-122.4233"
+var lat_lon = "auto_ip"
+var api = "auto_api"
 //第一行引号内填入申请到的dark sky api
 //有问题请通过Telegram反馈 https://t.me/Leped_Bot
 //clear-day, partly-cloudy-day, cloudy, clear-night, rain, snow, sleet, wind, fog, or partly-cloudy-night
@@ -24,6 +23,7 @@ function weather() {
             $notification.post("Dark Sky", lat_lon + '信息获取失败', error);
         } else {
             var obj = JSON.parse(data);
+            console.log(obj);
             var hour_summary = obj.hourly.summary;
             var icon_text = obj.hourly.icon;
             var icon = "❓"
@@ -37,10 +37,10 @@ function weather() {
             if (icon_text == "fog") icon = "🌫";
             if (icon_text == "partly-cloudy-night") icon = "🌑";
             if (icon_text == "clear-night") icon = "🌑";
-            var dailiy_maxtemp = obj.daily.data[0].temperatureMax;//17.53
-            var dailiy_mintemp = obj.daily.data[0].temperatureMin;//12.76
-            $notification.post("Dark Sky", icon + " 温度 " + dailiy_mintemp + " - " + dailiy_maxtemp, hour_summary);
+            var daily_prec_chance = obj.daily.data[0].precipProbability;
+            var daily_maxtemp = obj.daily.data[0].temperatureMax;
+            var daily_mintemp = obj.daily.data[0].temperatureMin;
+            $notification.post("Dark Sky", icon + " " + daily_mintemp + " - " + daily_maxtemp + "  ☔️% " + Number(daily_prec_chance)*100, hour_summary);
         }
     });
 }
-
