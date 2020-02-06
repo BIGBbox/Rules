@@ -181,7 +181,7 @@ function sign() {
     url.headers['Accept-Encoding'] = `gzip, deflate, br`
     chen.get(url, (error, response, data) => {
       const result = JSON.parse(data)
-      const title = `${cookieName}`
+      const title = `小白成长分`
       let subTitle = ``
       let detail = ``
     
