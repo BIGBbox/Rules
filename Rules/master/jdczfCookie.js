@@ -1,6 +1,4 @@
-
 /*
-
     本作品用于QuantumultX和Surge之间js执行方法的转换
     您只需书写其中任一软件的js,然后在您的js最【前面】追加上此段js即可
     无需担心影响执行问题,具体原理是将QX和Surge的方法转换为互相可调用的方法
@@ -111,6 +109,44 @@ if (isSurge) {
         }
     }
 }
+// #endregion 网络请求专用转换
+
+// #region cookie操作
+if (isQuantumultX) {
+    $persistentStore = {
+        read: key => {
+            return $prefs.valueForKey(key);
+        },
+        write: (val, key) => {
+            return $prefs.setValueForKey(val, key);
+        }
+    }
+}
+if (isSurge) {
+    $prefs = {
+        valueForKey: key => {
+            return $persistentStore.read(key);
+        },
+        setValueForKey: (val, key) => {
+            return $persistentStore.write(val, key);
+        }
+    }
+}
+// #endregion
+
+// #region 消息通知
+if (isQuantumultX) {
+    $notification = {
+        post: (title, subTitle, detail) => {
+            $notify(title, subTitle, detail);
+        }
+    }
+}
+if (isSurge) {
+    $notify = function (title, subTitle, detail) {
+        $notification.post(title, subTitle, detail);
+    }
+}/*
 
 const cookieName = '京东cookie'
 const cookieKey = 'chen_cookie_jingdong'
