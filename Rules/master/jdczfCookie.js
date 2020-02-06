@@ -146,7 +146,7 @@ if (isSurge) {
     $notify = function (title, subTitle, detail) {
         $notification.post(title, subTitle, detail);
     }
-}/*
+}
 
 const cookieName = '京东cookie'
 const cookieKey = 'chen_cookie_jingdong'
